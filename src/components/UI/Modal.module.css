@@ -1,0 +1,42 @@
+.CustomModal--backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+}
+
+.CustomModal__container {
+  max-width: 400px;
+  margin: 25vh auto;
+  padding: 40px 20px;
+  background: #02044a;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.CustomModal__icon-container {
+  width: 25px;
+  height: 25px;
+  background-color: #2db27c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.CustomModal__icon {
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .CustomModal__container {
+    margin: 20vh auto;
+  }
+}
