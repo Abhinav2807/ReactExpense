@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { BiUser } from "react-icons/bi";
 import { AiOutlineAppstoreAdd, AiOutlineLineChart } from "react-icons/ai";
-import { MdOutlineAttachMoney } from "react-icons/md";
+import { MdOutlineAttachMoney, MdReportGmailerrorred } from "react-icons/md";
 
 const Container = styled.div`
   grid-column: 1;
